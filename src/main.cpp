@@ -29,7 +29,7 @@
   //   delay(2000);
   // }
 
-  #include <Arduino.h>
+#include <Arduino.h>
 #include <Wire.h>
 #include <SPI.h>
 #include <Adafruit_GFX.h>
@@ -55,5 +55,6 @@ void loop(){
   Serial.println("Hello XIAO!");
   delay(2000);
 }
+
 
 
